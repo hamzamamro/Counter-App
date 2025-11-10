@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(26, 25, 25);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+}
+
+.container .count{
+    font-size: 3rem;
+}
+
+button{
+    border-radius: 10%;
+    border: none;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.decrease-btn{
+    background-color: rgb(213, 36, 36);
+}
+
+.reset-btn{
+    background-color: rgb(36, 161, 206);
+}
+
+.increase-btn{
+    background-color: rgb(50, 164, 50);
+}
